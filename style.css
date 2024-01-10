@@ -47,6 +47,7 @@ a {
     color: rgb(25, 25, 25);
     text-decoration: none;
     text-decoration-color: rgb(25, 25, 25);
+    transition: 350ms;
 }
 
 a:hover {
@@ -59,6 +60,7 @@ a:hover {
 .logo {
     color: rgb(25, 25, 25);
     font-size: 2rem;
+    font-weight: 600;
 }
 
 .logo:hover {
@@ -146,4 +148,131 @@ a:hover {
     transform: none;
 }
 
+/* Sections */
 
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* profile */
+
+#profile {
+    cursor:default;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text_p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    font-weight: 500;
+    text-align: left;
+}
+
+.section__text__p1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: rgb(100, 100, 100);
+}
+
+.section__text__p2 {
+    font-weight: 500;
+    text-align: left;
+}
+
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    color: rgb(100, 100, 100);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: left;
+    color: rgb(25, 25, 25);
+    transition: all 350ms;
+}
+
+.title:hover {
+    color: rgb(200, 180, 180);
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* icons */
+
+.icon {
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    height: 2rem; 
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+/* btns */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease-in-out;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-1, .btn-2 {
+    border: rgb(25, 25, 25) 0.1rem solid;
+    color: rgb(25, 25, 25);
+} 
+
+.btn-1:hover, .btn-2:hover {
+    cursor: pointer;
+} 
+
+.btn-1:hover {
+    background-color: rgb(230, 220, 220);
+    transform: scale(1.05);
+}
+
+.btn-2:hover {
+    background-color: rgb(230, 220, 220);
+    transform: scale(1.05);
+}
